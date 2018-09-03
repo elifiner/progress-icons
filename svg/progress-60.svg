@@ -1,0 +1,16 @@
+    <svg height="32" width="32">
+        <g transform="translate(5 5) rotate(-16 11 11)">
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="green" transform="rotate(0 11 11)" />
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="green" transform="rotate(36 11 11)" />
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="green" transform="rotate(72 11 11)" />
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="green" transform="rotate(108 11 11)" />
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="green" transform="rotate(144 11 11)" />
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="green" transform="rotate(180 11 11)" />
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="green" transform="rotate(216 11 11)" />
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="white" transform="rotate(252 11 11)" />
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="white" transform="rotate(288 11 11)" />
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="white" transform="rotate(324 11 11)" />
+                            <circle cx="11" cy="0" r="3" stroke="gray" stroke-width="0.5" fill="white" transform="rotate(360 11 11)" />
+                    </g>
+    </svg>
+    

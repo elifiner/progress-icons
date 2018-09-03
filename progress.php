@@ -1,6 +1,6 @@
 <?php
 $total = 10;
-system("rm svg/* png/*");
+system("rm svg/* png/* 2> /dev/null");
 for ($count = 0; $count <= $total; $count += 1) {
     ob_start();
     ?>
