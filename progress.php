@@ -1,5 +1,6 @@
 <?php
 $total = 10;
+system("rm svg/* png/*");
 for ($count = 0; $count <= $total; $count += 1) {
     ob_start();
     ?>
@@ -12,5 +13,8 @@ for ($count = 0; $count <= $total; $count += 1) {
     </svg>
     <?php
     $percent = $count / $total * 100;
-    file_put_contents("progress-$percent.html", ob_get_clean());
+    $filename = "progress-$percent";
+    error_log($filename);
+    file_put_contents("svg/$filename.svg", ob_get_clean());
+    system("svg2png svg/$filename.svg -o png/$filename.png");
 }
